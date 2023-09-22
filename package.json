@@ -1,13 +1,24 @@
 {
   "name": "obfuscateapp",
+  "homepage": "https://harish0411.github.io/obfuscation/",
   "version": "0.1.0",
   "private": true,
+  "terser": {
+    "terserOptions": {
+      "mangle": true,
+      "compress": {
+        "drop_console": true
+      }
+    }
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "javascript-obfuscator": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-obfuscate": "^3.6.9",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -15,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +46,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "terser": "^5.20.0",
+    "terser-webpack-plugin": "^5.3.9",
+    "uglify-js": "^3.17.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
