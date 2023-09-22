@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/obfuscation/static/css/main.3928dfa3.css",
-    "main.js": "/obfuscation/static/js/main.e7bbca3c.js",
+    "main.js": "/obfuscation/static/js/main.74153ceb.js",
     "index.html": "/obfuscation/index.html",
     "main.3928dfa3.css.map": "/obfuscation/static/css/main.3928dfa3.css.map",
-    "main.e7bbca3c.js.map": "/obfuscation/static/js/main.e7bbca3c.js.map"
+    "main.74153ceb.js.map": "/obfuscation/static/js/main.74153ceb.js.map"
   },
   "entrypoints": [
     "static/css/main.3928dfa3.css",
-    "static/js/main.e7bbca3c.js"
+    "static/js/main.74153ceb.js"
   ]
 }
